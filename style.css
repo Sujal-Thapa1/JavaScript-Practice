@@ -1,0 +1,31 @@
+body{
+    background: rgb(16, 162, 247);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+    border: 2px solid black;
+    height: 90vh;
+    width: 100%;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+}
+.button button{
+    background:rgb(51, 243, 8);
+    border: none;
+    height: 40px;
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    border-radius:20px;
+}
+.button button:hover{
+    background:rgb(14, 231, 231);
+}
