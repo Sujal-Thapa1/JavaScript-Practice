@@ -1,0 +1,22 @@
+body{
+    background: rgb(46, 200, 211);
+}
+h3{
+    text-align: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+#bt{
+    position: absolute;
+    top: 100px;
+    background: rgb(16, 150, 238);
+    border: none;
+    height:40px;
+    width: 120px;
+    border-radius: 20px;
+}
+
